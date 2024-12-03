@@ -1,0 +1,165 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+a {
+  background-color: transparent;
+  border: 0;
+  margin-right: 20px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  border: 0;
+  margin-right: 20px;
+  padding-right: 10px;
+}
+
+
+/* Menú de Navegación */
+.parrafo_principal{
+  font-size: 300%;
+  text-align: center;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.items_menu{
+  background-color: #ff632a;
+  padding: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.navbar.stiki{
+  position: sticky;
+  top: 0;
+}
+
+.menu-scroll {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.menu-item {
+  text-align: center;
+  color: white;
+  font-size: 90%;
+  cursor: pointer;
+}
+
+
+.menu-item p {
+  margin-top: 5px;
+  margin-right: 40px;
+}
+/*esta parte es para los circulos de nav*/
+.contenedor_cecioncirculos{
+  display: flex;
+  overflow-x: auto;
+  background-color: #f9f9f9;
+}
+.imagen_circulo{
+  width: 60%;
+  height: 50%;
+}
+.ceciones_circulo img {
+  align-items: center;
+  border-radius: 1000px;
+  padding-left: 5px;
+  display: flex;
+  margin: 10px;
+  
+}
+.boton_circulo{
+  margin-left: 15%;
+}
+.boton_todos{
+  border: 7px;
+  margin: 55px;
+  border-color: #333;
+}
+/* Contenido Principal */
+main {
+  padding: 20px;
+  text-align: center;
+
+}
+
+main h1 {
+  margin-bottom: 10px;
+  font-size: 200%;
+}
+
+main p {
+  color: #555;
+  display: grid;
+  
+}
+
+
+/*contenedor de ofertas y revajas*/
+.contenedor_de_ofertas{
+  text-align: center;
+  
+}
+.contenedor_de_revajas{
+  display: flex;
+  overflow: auto;
+  
+}
+.slide-sesion img{
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  padding: 5px;
+  height: 100%;
+  width: 100px;
+  
+}
+.img_ofertas{
+  width: 100%;
+  height: 100%;
+}
+.enoferta{
+  text-align: start;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: overline;
+  color: #f00;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+}
+.container{
+  height: 10%;
+  width: 100%;
+}
+
+
+
+
+
+
+.content_main{
+  display: grid;
+  grid-template-columns: repeat(2,3fr);
+  gap:1rem;
+}
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    text-anchor: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
