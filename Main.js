@@ -203,3 +203,12 @@ document.addEventListener("DOMContentLoaded",()=>{
         }
     })
 })
+//Esto es para el boton flotante
+function boton_flotante(){
+    var b_f = document.getElementById("contenedor_contact_id");
+    if(b_f.style.display == "block"){
+        b_f.style.display = "none";
+    }else{
+        b_f.style.display = "block"
+    }
+}

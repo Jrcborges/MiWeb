@@ -255,8 +255,37 @@ footer{
   font-size: 30px;
   padding-bottom: 20px;
 }
+/*esta parte es del boton flotante*/
 .contact{
   padding-top: 10px;
   padding: 10px;
   padding-bottom: 20px;
+}
+.boton-contact {
+  position:fixed;
+  top: 91%;
+  margin-left: 10px;
+
+
+  
+}
+.img-boton-contact{
+  width: 50px;
+  border-radius: 20px;
+  border: #333 solid 2px;
+}
+.contenedor_contact{
+  background-color:#fff;
+  position:fixed;
+  width: 90%;
+  height: 400px;
+  top: 25%;
+  margin-left: 5%;
+  border: #333 solid 2px;
+  display: none;
+}
+.p_botonflotante{
+  margin: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
