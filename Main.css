@@ -9,6 +9,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   color: #333;
+  ::-webkit-scrollbar{display: none;}
 }
 a {
   background-color: transparent;
@@ -33,7 +34,6 @@ header{
   height: 20%;
   width: 10%;
   border-radius: 40px;
-  margin-top: 10px;
   max-width: 80px;
   min-width: 40px
 }
@@ -53,15 +53,23 @@ header{
   width: 90%;
   position: absolute;
   margin-left: 1px;
+  display: fle
 
 }
-
+.carrito_icon_img{
+  width: 10%;
+  border-radius: 40px;
+  margin-top: 10px;
+  max-width: 80px;
+  min-width: 40px
+}
 .items_menu{
   background-color: #ff632a;
   padding: 10px;
   overflow-x: auto;
   white-space: nowrap;
 }
+
 .navbar.stiki{
   position: sticky;
   top: 0;
@@ -87,11 +95,13 @@ header{
 }
 /*esta parte es para los circulos de nav*/
 .contenedor_cecioncirculos{
-  display: flex;
+  display: none;
   overflow-x: auto;
   background-color: #f9f9f9;
+
 }
 .imagen_circulo{
+
   width: 60%;
   height: 50%;
 }
@@ -244,6 +254,10 @@ overflow: hidden;
     border-radius: 20px;
     
 }
+
+
+
+
 footer{
   margin-top: 30px;
   background-color: #333;
@@ -255,7 +269,9 @@ footer{
   font-size: 30px;
   padding-bottom: 20px;
 }
-/*esta parte es del boton flotante*/
+
+
+/*esta parte es del boton flotante para contactar y el carrito de compras*/
 .contact{
   padding-top: 10px;
   padding: 10px;
@@ -265,9 +281,6 @@ footer{
   position:fixed;
   top: 91%;
   margin-left: 10px;
-
-
-  
 }
 .img-boton-contact{
   width: 50px;
@@ -289,3 +302,27 @@ footer{
   margin-top: 30px;
   margin-left: 30px;
 }
+/*botn de carrrito de compras*/
+.num_del_carrito{
+  color: #f00;
+  background-color: #f9f9f9;
+  height: 17px;
+  width: 10px;
+  text-align: center;
+  margin-left: -26px;
+  margin-top:5px ;
+  border-radius: 20px;
+  
+}
+.link_del_carrito{
+  position:fixed;
+  top: 83%;
+  margin-left: 10px;
+  display: flex;
+  z-index: 2;
+
+}
+.carrito_icon_img{
+  border: #333 solid 2px;
+}
+

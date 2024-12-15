@@ -1,0 +1,107 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    ::-webkit-scrollbar{display: none;}
+}
+a {
+    background-color: transparent;
+    border: 0;
+    margin-right: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    border: 0;
+    
+}
+header{
+    text-align: center;
+}
+
+/************/
+.volver_compra{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    color: #ff632a;
+    font-size: 13px;
+    border-bottom: #333 solid 1px;
+    margin-left: 30px;
+}
+.menu_nav{
+    display: flex;
+}
+.menu_nav p{
+    display: flex;
+    color:#f9f9f9 ;
+    text-align: center;
+    background-color:#ff632a;
+    width: 100%;
+    padding: 10px;
+    
+}
+/*esto es el mein*/
+.carrito_vacio{
+    margin: 20px;
+    color: #932;
+}
+.carrito_productos{
+    display: flex;
+    flex-direction: column;
+}
+.carrito_producto_img{
+    width: 60px;
+}
+.carrito_producto{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #ff632a;
+    padding: 1rem;
+    margin: 10px;
+    border: #333 solid 1px;
+    justify-content: space-between;
+}
+.vaciar_carrito button{
+    margin: 10px;
+    background-color: #ecd1d1;
+    display: flex;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    color: #f00;
+    text-transform: uppercase;
+}
+.total_de-compra{
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    color: rgb(234, 1, 1);
+    flex-direction: column;
+    margin: 10px;
+}
+.total_de-compra button{
+    margin: 10px;
+    background-color: #fc600c;
+    margin: 10px;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 241, 241);
+    text-transform: uppercase;
+    
+}
+.cont_de_acciones{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
