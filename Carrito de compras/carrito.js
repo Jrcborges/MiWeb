@@ -13,7 +13,7 @@ if (productoscarrito){
     div.classList.add("carrito_producto")
 
     div.innerHTML=`
-    <img class="carrito_producto_img" src="/../${producto.imagen}" alt="${producto.imagen}">
+    <img class="carrito_producto_img" src="../${producto.imagen}" alt="${producto.imagen}">
     <div>
         <h2>${producto.titulo}</h2>
     </div>
