@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+    <header>
+        <div class="cabecera-checkout">
+            <button onclick="window. history.back()" class="btnBolber"><small>volver</small></button>
+            <p>Ely day</p>
+        </div>
+    </header>
+    <main>
+        <div class="titulo-checkout">
+            Entrega a domicilio
+        </div>
+        <div class="datos-introdusca-checkout">
+            <p>Por favor rellene los datos q piden a continuacion</p>
+        </div>
+        <form class="checkoutform">
+            <label for="">Nombre</label>
+            <input  id="nombre" placeholder="Escriba su nombre" type="text" required>
+
+            <label for="">Numero de wattsap</label>
+            <input id="numero" placeholder="+53"  type="text" pattern="[0-9]{8}" required>
+
+
+            <label for="">Direccion exacta</label>
+            <input id="direcion" placeholder="Escriba su Direccion exacta" type="text" required>
+
+            <label for="">Aclaraciones</label>
+            <input id="aclaracion" placeholder="Escriba alguna aclaracion q dese hacer" type="text" required>
+        </form>
+        <button id="checkout_btn" onclick="checkout_btn()" class="enviar_pedido">Enviar pedido</button>
+        
+    </main>
+    <script src="checkout.js"></script>
+</body>
+</html>

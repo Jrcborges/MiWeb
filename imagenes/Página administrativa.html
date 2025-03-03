@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+</head>
+<body>
+    <h1>Panel de Administración</h1>
+
+    <h2>Añadir Producto</h2>
+    <form id="add-product-form">
+        <label for="nombre">Nombre del producto:</label>
+        <input type="text" id="nombre" required>
+        <label for="precio">Precio del producto:</label>
+        <input type="number" id="precio" required>
+        <button type="submit">Añadir Producto</button>
+    </form>
+
+    <h2>Productos Disponibles</h2>
+    <ul id="productos-lista"></ul>
+
+    <script>
+        // Obtener productos disponibles
+        function cargarProductos() {
+            fetch('/api/productos')
+                .then(response => response.json())
+                .then(data => {
+                    const productosLista = document.getElementById('productos-lista');
+                    productosLista.innerHTML = '';
+                    data.forEach(producto => {
+                        const listItem = document.createElement('li');
+                        listItem.textContent = `${producto.nombre} - $${producto.precio}`;
+                        const eliminarButton = document.createElement('button');
+                        eliminarButton.textContent = 'Eliminar';
+                        eliminarButton.onclick = () => eliminarProducto(producto.id);
+                        listItem.appendChild(eliminarButton);
+                        productosLista.appendChild(listItem);
+                    });
+                });
+        }
+
+        // Añadir nuevo producto
+        document.getElementById('add-product-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const nombre = document.getElementById('nombre').value;
+            const precio = document.getElementById('precio').value;
+
+            fetch('/api/productos', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ nombre, precio })
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert(data);
+                cargarProductos(); // Recargar lista de productos
+            });
+        });
+
+        // Eliminar un producto
+        function eliminarProducto(id) {
+            fetch(`/api/productos/${id}`, {
+                method: 'DELETE'
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert(data);
+                cargarProductos(); // Recargar lista de productos
+            });
+        }
+
+        // Cargar productos al cargar la página
+        cargarProductos();
+    </script>
+</body>
+</html>
