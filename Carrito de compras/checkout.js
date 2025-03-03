@@ -29,6 +29,6 @@ function funciono(){
     //codificar mensaje
     const mensaje_cod=encodeURIComponent(menssage);
     //crear mensaje de watsapp con intent
-    const url=`intent://send/?phone=${numero_deMovilAllegar}&text=${mensaje_cod}#Intent;scheme=whatsapp;package=com.whatsapp;end`;
+    const url=`https://wa.me/${numero_deMovilAllegar}&text=${mensaje_cod}#Intent;scheme=whatsapp;package=com.whatsapp;end`;
     window.open(url,"_blanck")
 }
