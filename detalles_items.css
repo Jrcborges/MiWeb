@@ -9,7 +9,7 @@
     left: 0;
     z-index: 1;
     justify-items: center;
-    align-items: centers;
+    align-items: center;
     overflow-y: auto;
 }
 .modal_contenido{

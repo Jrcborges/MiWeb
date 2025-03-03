@@ -10,13 +10,15 @@
 <body>
   <header>
       <div class="close-open">
-        <img class="logo_principal" src="imagenes/Logo.jpg">
-        <p><b>Abierto</b></p>
+        <div class="logo">
+          <img class="logo_principal" src="imagenes/Logo.jpg">
+          <p><b>Abierto</b></p>
+        </div>
+        <div class="parrafo_principal">
+          <p>Ely Day</p>
+        </div>
       </div>
-      <div class="parrafo_principal">
-        <p>Tienda</p>
-        <p>Ely Day</p>
-      </div>
+    
     <!-- Menú de Navegación -->
     <nav id="menu" class="navbar">
       <div class="items_menu">
@@ -54,11 +56,12 @@
       </ul>
     </div>
 
+    
       <div class="container">
         <p class="enoferta">Ofertas especiales :</p>
         <div class="contenedor_de_revajas">
           <section class="slide-sesion">
-            <img class="img_ofertas" src="imagenes/Abrig.jpg" alt="">
+            <img  class="imagen_producto" src="imagenes/Abrig.jpg" alt="" data-id="${producto.id}">
           </section>
           <section class="slide-sesion">
             <img class="img_ofertas" src="imagenes/Arete.jpg" alt="">
@@ -87,7 +90,6 @@
 
   <div>
     <a href="Carrito de compras/carrito.html" class="link_del_carrito"><img class="carrito_icon_img" src="imagenes/Carrito_img.jpg">
-      <p id="numerito" class="num_del_carrito">0</p>
     </a>
     <button onclick="boton_flotante()" class="boton-contact">
         <img class="img-boton-contact" src="imagenes/Icono_watsapp.jpg" alt="">

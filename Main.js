@@ -11,41 +11,105 @@ const productos =[
         "Ropa de sports especial para salidas casuales con amigos",
         "talla":["xl","m"],
         "color":["azul","rojo"],
-        "precio": 1000,
+        "precio": 300,
     },
     {
         "id": "momo-2",
-        "nombre": "Momo",
-        "imagen": "imagenes/Pant2.jpg",
+        "nombre": "Abrrigo de marca",
+        "imagen": "imagenes/Abrig.jpg",
         "categoria":{
             "titulo":"sport-hombre",
             "categoria":"hombre"
         },
         "detalles":"ropa de sports",
         "talla":["XL","M"],
-        "precio": 1000
+        "precio": 600
     },
     {
         "id": "momo-4",
-        "nombre": "Momo",
-        "imagen": "imagenes/Pant2.jpg",
+        "nombre": "Chaquta de hombre",
+        "imagen": "imagenes/Chaqueta1.jpg",
         "categoria":{
-            "titulo":"sport-hombre",
-            "categoria":"alimento"
+            "titulo":"formal-hombre",
+            "categoria":"hombre"
         },
-        "detalles":"ropa de sports",
-        "precio": 1000
+        "detalles":"Ropa para salidas especiales y cenas",
+        "talla":["XL","M"],
+        "precio": 900
+    },
+    {
+        "id": "momo-4",
+        "nombre": "Chaquta de hombre",
+        "imagen": "imagenes/Chaqueta2.jpg",
+        "categoria":{
+            "titulo":"formal-hombre",
+            "categoria":"hombre"
+        },
+        "detalles":"Ropa formal de hombre para eventos especiales,como bodas",
+        "talla":["X","M"],
+        "precio": 600
+    },
+    {
+        "id": "momo-4",
+        "nombre": "Chaquta de hombre",
+        "imagen": "imagenes/Calsonesm1.jpg",
+        "categoria":{
+            "titulo":"ropa-interior-hombre",
+            "categoria":"hombre"
+        },
+        "detalles":"Ropa interior de hombre varios colores",
+        "talla":["X","M"],
+        "color":["rojo","azul"],
+        "precio": 200,
+    },
+    {
+        "id": "momo-4",
+        "nombre": "Chaquta de hombre",
+        "imagen": "imagenes/Calsonesm2.jpg",
+        "categoria":{
+            "titulo":"ropa-interior-hombre",
+            "categoria":"hombre"
+        },
+        "detalles":"Ropa interior de hombre varios colores",
+        "talla":["X","M"],
+        "color":["rojo","azul"],
+        "precio": 100,
+    },
+
+    {
+        "id": "momo-4",
+        "nombre": "Camisa de hombre",
+        "imagen": "imagenes/Chaqueta3.jpg",
+        "categoria":{
+            "titulo":"formal-hombre",
+            "categoria":"hombre"
+        },
+        "detalles":"Ropa formal de hombre para eventos especiales",
+        "talla":["X","M"],
+        "precio": 800
+    },
+    {
+        "id": "momo-4",
+        "nombre": "Chaqueta de hombre",
+        "imagen": "imagenes/Chaqueta4.jpg",
+        "categoria":{
+            "titulo":"formal-hombre",
+            "categoria":"hombre"
+        },
+        "detalles":"Ropa formal de hombre para salidas",
+        "talla":["X","M"],
+        "precio": 700
     },
     {
         "id": "vestido-3",
         "nombre": "vestido",
         "imagen": "imagenes/Vestido1.jpg",
         "categoria":{
-            "titulo":"sport-mujer",
-            "categoria":"alimento"
+            "titulo":"formal_mujer",
+            "categoria":"mujer"
         },
         "detalles":"vestido bonito de mujer",
-        "precio": 10
+        "precio": 3000
     },
     {
         "id": "vestido",
@@ -56,54 +120,76 @@ const productos =[
             "categoria":"mujer"
         },
         "detalles":"ropa de mujer",
-        "precio": 100
-    },
-    {
-        "id": "momo-100",
-        "nombre": "Momo",
-        "imagen": "imagenes/Pant2.jpg",
-        "categoria":{
-            "titulo":"sport-hombre",
-            "categoria":"hombre"
-        },
-        "detalles":"ropa de sports",
         "precio": 1000
     },
     {
-        "id": "momo-200",
-        "nombre": "Momo",
-        "imagen": "imagenes/Pant2.jpg",
+        "id": "vestido",
+        "nombre": "Blusa de mujer",
+        "imagen": "imagenes/Blusa1.jpg",
         "categoria":{
-            "titulo":"formal-hombre",
-            "categoria":"hombre"
+            "titulo":"sport-mujer",
+            "categoria":"mujer"
         },
-        "detalles":"ropa de sports",
+        "detalles":"Blusa de mujer de tela suabe",
+        "precio": 500
+    },
+    {
+        "id": "vestido",
+        "nombre": "Blusa con estilo",
+        "imagen": "imagenes/Blusa2.jpg",
+        "categoria":{
+            "titulo":"formal-mujer",
+            "categoria":"mujer"
+        },
+        "detalles":"Blusa de mujer de color negro",
         "precio": 1000
     },
     {
-        "id": "momo-300",
-        "nombre": "Momo",
-        "imagen": "imagenes/Pant2.jpg",
+        "id": "vestido",
+        "nombre": "Sudadera",
+        "imagen": "imagenes/Blusa3.jpg",
         "categoria":{
-            "titulo":"sport-hombre",
-            "categoria":"hombre"
+            "titulo":"formal-mujer",
+            "categoria":"mujer"
         },
-        "detalles":"ropa de sports",
-        "precio": 1000
+        "detalles":"Sudadera de mujer para tiempo de frio",
+        "precio": 800
     },
     {
-        "id": "momo-1",
-        "nombre": "Momo",
-        "imagen": "imagenes/Pant2.jpg",
+        "id": "vestido",
+        "nombre": "Pantalon para salidas",
+        "imagen": "imagenes/Panta1.jpg",
         "categoria":{
-            "titulo":"sport-hombre",
-            "categoria":"hombre"
+            "titulo":"formal-mujer",
+            "categoria":"mujer"
         },
-        "detalles":"ropa de sports",
-        "precio": 1000
+        "detalles":"Pantalon casual para salidas",
+        "precio": 500
     },
+    {
+        "id": "vestido",
+        "nombre": "Refrigerador 2 puertas",
+        "imagen": "imagenes/Refri.jpg",
+        "categoria":{
+            "categoria":"electrodomestico"
+        },
+        "detalles":"Refrigerador dos puertas",
+        "precio": 10000
+    },
+    {
+        "id": "vesti",
+        "nombre": "Microndas",
+        "imagen": "imagenes/Micro.jpg",
+        "categoria":{
+            "categoria":"electrodomestico"
+        },
+        "detalles":"Microndas perfecto para casa",
+        "precio": 10000
+    },
+
 ]
 // Selecciona el contenedor del HTML
+
 const contenedor = document.querySelector("#contenedor");
 const producto_filtrado =productos.filter(producto => producto.categoria.categoria===categoria_actual);
 const boton_categoria = document.querySelectorAll(".boton_categoria");
@@ -114,15 +200,6 @@ const btn_cerrar_modal = document.querySelector("#cerrar_modal")
 
 let botones_agg = document.querySelector(".btnn_productos_agg");
 
-//este array es del carrito de compras
-let productoscarrito;
-const productoscarritoLS = JSON.parse(localStorage.getItem("productoscarrito"));
-if(productoscarritoLS){
-    productoscarrito = productoscarritoLS;
-    act_num();
-}else{
-    productoscarrito=[]
-}
 // Función para cargar los productos en el contenedor
 
 function cargar_productos(producto_filtrado) {
@@ -224,6 +301,14 @@ function actualizar_botones_Agregar(){
 
     })
 }
+let productoscarrito;
+let productoscarritoLS = localStorage.getItem("productoscarrito");
+if(productoscarritoLS){
+    productoscarrito = JSON.parse(productoscarritoLS);
+    act_num();
+}else{
+    productoscarrito=[]
+}
 
 //funcion para cerrar el modal
 btn_cerrar_modal.addEventListener("click",()=>{
@@ -303,10 +388,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     })
 })
 
-
-
-
-
 //Esto es para el boton flotante
 function boton_flotante(){
     var b_f = document.getElementById("contenedor_contact_id");
@@ -316,26 +397,3 @@ function boton_flotante(){
         b_f.style.display = "block"
     }
 }
-//productoscarrito.some(producto => producto.id === idboton)
-/*function aggAlcarrito(e){
-    const idboton = e.currentTarget.id;
-    const producto_agg = productos.find(producto => producto.id === idboton);
-    const select_talla = document.getElementById('#tallas-${producto.id}');
-    const talla_celecionada = select_talla.value;
-
-
-
-
-    if (productoscarrito.some(producto => producto.id === idboton)){
-        const index = productoscarrito.findIndex(producto => producto.id === idboton);
-        productoscarrito[index].cantidad++;
-
-    }else{
-        producto_agg.cantidad = 1;
-        productoscarrito.push(producto_agg);
-        
-        console.log(productoscarrito)
-    }
-    act_num();
-    localStorage.setItem("productoscarrito",JSON.stringify(productoscarrito))
-}*/

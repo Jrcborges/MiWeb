@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="menu_nav">
-            <a href="../Hombre.html" class="volver_compra"><small>volver a la compra</small></a>
+            <button onclick="window. history.back()" class="volver_compra"><small>volver a la compra</small></button>
             <p>Tu Carrito de Compras</p>
         </div>
     </header>
@@ -20,12 +20,11 @@
         </div>
         <div class="cont_de_acciones">
             <div class="vaciar_carrito">
-                <button>Vaciar carrito</button>
+                <button id="vaciar_carrito" class="vaciar_carrito">Vaciar carrito</button>
             </div>
-            <div class="total_de-compra">
-                <small>Total:</small>
-                <p>$3000</p>
-                <button>comprar</button>
+            <div class="total_compra">
+                <div class="total-cont">Total: <p id="total" class="Total">300</p></div>
+                <button onclick="finalisarCompra()" id="comprar">comprar</button>
             </div>
         </div>
     </div>
