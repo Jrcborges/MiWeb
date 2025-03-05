@@ -1,6 +1,7 @@
 let productoscarrito =(localStorage.getItem("productoscarrito"));
 productoscarrito= JSON.parse(productoscarrito);
 
+
 const carrito_vacio=document.querySelector("#carrito_vacio")
 const cont_carrito_product=document.querySelector("#cont_carrito_product")
 let btn_eliminar = document.querySelectorAll(".producto_eliminar")
@@ -66,6 +67,7 @@ function eliminar_carr(e){
     cargar_productos_carr(productoscarrito)
     console.log(productoscarrito)
     localStorage.setItem("productoscarrito",JSON.stringify(productoscarrito))
+    
 }
 btn_vaciar_carrito.addEventListener("click",vaciarCarrito);
 
