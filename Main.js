@@ -221,7 +221,6 @@ function cargar_productos(producto_filtrado) {
 
 function mostrar_detalles_producto(idprducto){
     const producto=productos.find((producto) =>producto.id === idprducto);
-    if (producto.talla != null){
         modal_contenido.innerHTML=`
         <img src="${producto.imagen}" alt="${producto.categoria.titulo}">
         <p class="description_producto">${producto.detalles}</p>
@@ -235,7 +234,7 @@ function mostrar_detalles_producto(idprducto){
     actualizar_eventos_imagenes()
         
         
-    }
+    
     const activ = document.querySelector("#modal_detalle")
     activ.style.display="block"
 }
