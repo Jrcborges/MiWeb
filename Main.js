@@ -285,12 +285,11 @@ function aggAlcarrito(e){
     const idboton = e.currentTarget.id;
     //tengo q corrgir las tallas
     const producto_agg = productos.find(producto => producto.id === idboton);
-    select_Cantidad = document.getElementById(`Cantidad-${idboton}`).value;
 
 
 
     producto_agg.cantidad = 1;
-    productoscarrito.push({ ...producto_agg,select_cantidad});
+    productoscarrito.push({ ...producto_agg});
     console.log(productoscarrito)
     act_num();
     localStorage.setItem("productoscarrito",JSON.stringify(productoscarrito))
