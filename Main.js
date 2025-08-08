@@ -249,6 +249,8 @@ function mostrar_detalles_producto(idprducto){
         <img src="${producto.imagen}" alt="${producto.categoria.titulo}">
         <p class="description_producto">${producto.detalles}</p>
         <p class="p_de_costo">$<b>${producto.precio}</b></p>
+        <label>Cantidad:</label>
+        <input type:text>
         
         
         <button class="btnn_productos_agg" id="${producto.id}">Agg al carrito</button>
