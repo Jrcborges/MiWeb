@@ -8,7 +8,7 @@ const productos =[
             "categoria":"Dulces"
         },
         "detalles":"Dulce con bastante merengue",
-        "talla":["xl"],
+        
         "precio": 150,
     },
     {
