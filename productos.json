@@ -1,14 +1,13 @@
 [
 {
-    "id": "dulce1",
+    "id": "momo-1",
     "nombre": "Capitolio",
     "imagen": "imagenes/Capitolio.jpg",
     "categoria":{
         "titulo":"Dulces",
         "categoria":"Dulces"
     },
-    "detalles":
-    "Dulce con bastante merengue",
+    "detalles":"Dulce con bastante merengue",
     "talla":["xl","m"],
     "color":["azul","rojo"],
     "precio": 150,
