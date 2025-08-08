@@ -249,22 +249,7 @@ function mostrar_detalles_producto(idprducto){
         <img src="${producto.imagen}" alt="${producto.categoria.titulo}">
         <p class="description_producto">${producto.detalles}</p>
         <p class="p_de_costo">$<b>${producto.precio}</b></p>
-        <div class="celecionador_tall_color">
-            <label for="tallas-${producto.id}">Talla:</label>
-            <select id="tallas-${producto.id}" class="select_tallas">
-                <option select value="">
-                Selecionar
-                </option>
-                ${opciones_talla}
-            </select>
-            <label for="color-${producto.id}">Color:</label>
-            <select id="color-${producto.id}" class="select_tallas">
-                <option select value="">
-                Selecionar
-                </option>
-                ${opcion_color}
-            </select>
-        </div>
+        
         
         <button class="btnn_productos_agg" id="${producto.id}">Agg al carrito</button>
         `;
