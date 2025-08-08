@@ -1,17 +1,15 @@
 const productos =[
     {
-        "id": "momo-1",
-        "nombre": "Momo con estilo",
-        "imagen": "imagenes/Pant2.jpg",
+        "id": "dulcecapitolio",
+        "nombre": "Capitolio",
+        "imagen": "imagenes/Capitolio.jpg",
         "categoria":{
-            "titulo":"sport-hombre",
-            "categoria":"hombre"
+            "titulo":"Merengue",
+            "categoria":"Dulces"
         },
         "detalles":
-        "Ropa de sports especial para salidas casuales con amigos",
-        "talla":["xl","m"],
-        "color":["azul","rojo"],
-        "precio": 300,
+        "Dulce con bastante merengue",
+        "precio": 150,
     },
     {
         "id": "momo-2",
