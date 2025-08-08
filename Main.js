@@ -263,10 +263,7 @@ function mostrar_detalles_producto(idprducto){
         <p class="description_producto">${producto.detalles}</p>
         <p class="p_de_costo">$<b>${producto.precio}</b></p>
         <button class="btnn_productos_agg" id="${producto.id}">Agg al carrito</button>
-        <div id="tallas-${producto.id}" value=null>
-        </div>
-        <div id="color-${producto.id}" value=null>
-        </div>
+        
         
         `;
     actualizar_botones_Agregar()
