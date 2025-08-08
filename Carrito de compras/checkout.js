@@ -17,8 +17,6 @@ function funciono(){
     productoscarrito.forEach((producto) => {
         menssage += `\n-Producto: ${producto.nombre}\n`;
         menssage += `-ID Producto: ${producto.id}\n`;
-        menssage += `-Talla: ${producto.select_talla}\n`;
-        menssage += `-Color: ${producto.select_color}\n`;
         menssage += `-Precio: ${producto.precio}\n\n`;
     });
 
