@@ -250,7 +250,7 @@ function mostrar_detalles_producto(idprducto){
         <p class="description_producto">${producto.detalles}</p>
         <p class="p_de_costo">$<b>${producto.precio}</b></p>
         <label>Cantidad:</label>
-        <input type:text>
+        <input id="Cantidad-${producto.id}"class="cantidadstyle" type:number>
         
         
         <button class="btnn_productos_agg" id="${producto.id}">Agg al carrito</button>
@@ -317,13 +317,12 @@ function aggAlcarrito(e){
     const idboton = e.currentTarget.id;
     //tengo q corrgir las tallas
     const producto_agg = productos.find(producto => producto.id === idboton);
-    select_talla = document.getElementById(`tallas-${idboton}`).value;
-    select_color = document.getElementById(`color-${idboton}`).value;
+    select_Cantidad = document.getElementById(`Cantidad-${idboton}`).value;
 
 
 
     producto_agg.cantidad = 1;
-    productoscarrito.push({ ...producto_agg,select_talla,select_color});
+    productoscarrito.push({ ...producto_agg,select_cantidad});
     console.log(productoscarrito)
     act_num();
     localStorage.setItem("productoscarrito",JSON.stringify(productoscarrito))
