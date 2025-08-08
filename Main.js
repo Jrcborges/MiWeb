@@ -12,12 +12,12 @@ const productos =[
         "precio": 150,
     },
     {
-        "id": "momo-2",
-        "nombre": "Abrrigo de marca",
-        "imagen": "imagenes/Abrig.jpg",
+        "id": "cocoglase",
+        "nombre": "Coco Glasé",
+        "imagen": "imagenes/Cocoglase.jpg",
         "categoria":{
-            "titulo":"sport-hombre",
-            "categoria":"hombre"
+            "titulo":"",
+            "categoria":"Dulces"
         },
         "detalles":"ropa de sports",
         "talla":["XL","M"],
