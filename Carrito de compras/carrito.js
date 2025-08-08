@@ -29,10 +29,7 @@ function cargar_productos_carr(){
         <img class="carrito_producto_img" src="../${producto.imagen}" alt="${producto.imagen}">
         <div class="contenedor_productosAgg">
             <h2>${producto.nombre}</h2>
-            <div class="talla_color">
-                <p class="talla">${producto.select_talla}</p>
-                <p>${producto.select_color}</p>
-            </div>
+            
         </div>
         <div>
             <p>Precio</p>
