@@ -4,7 +4,7 @@ const productos =[
         "nombre": "Capitolio",
         "imagen": "imagenes/Capitolio.jpg",
         "categoria":{
-            "titulo":"Merengue",
+            "titulo":"merengue",
             "categoria":"Dulces"
         },
         "detalles":"Dulce con bastante merengue",
@@ -16,11 +16,10 @@ const productos =[
         "nombre": "Coco Glasé",
         "imagen": "imagenes/Cocoglase.jpg",
         "categoria":{
-            "titulo":"",
+            "titulo":"todos",
             "categoria":"Dulces"
         },
         "detalles":"ropa de sports",
-        "talla":["XL","M"],
         "precio": 600
     },
     {
