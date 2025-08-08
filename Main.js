@@ -206,8 +206,6 @@ function cargar_productos(producto_filtrado) {
     // Crea un div para cada producto
     const div = document.createElement("div");
     div.classList.add("product");
-
-    //Opcion para elegir talla
     
     // Llena el div con la información del producto
     div.innerHTML = `
@@ -229,8 +227,7 @@ function mostrar_detalles_producto(idprducto){
         <img src="${producto.imagen}" alt="${producto.categoria.titulo}">
         <p class="description_producto">${producto.detalles}</p>
         <p class="p_de_costo">$<b>${producto.precio}</b></p>
-        <label>Cantidad:</label>
-        <input id="Cantidad-${producto.id}"class="cantidadstyle" type:number>
+        
         
         
         <button class="btnn_productos_agg" id="${producto.id}">Agg al carrito</button>
