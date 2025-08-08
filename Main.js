@@ -207,13 +207,7 @@ function cargar_productos(producto_filtrado) {
     const div = document.createElement("div");
     div.classList.add("product");
 
-    //Opcion para elegir tallas
-    const tallas_disponibles = producto.talla || []
-    let opciones_talla = ""
-
-    for(const talla of tallas_disponibles){
-        opciones_talla += `<option value="${talla}">${talla}</option>`
-    }
+    //Opcion para elegir talla
     
     // Llena el div con la información del producto
     div.innerHTML = `
@@ -230,20 +224,6 @@ function cargar_productos(producto_filtrado) {
 
 function mostrar_detalles_producto(idprducto){
     const producto=productos.find((producto) =>producto.id === idprducto);
-    //Opcion para elegir tallas
-    const tallas_disponibles = producto.talla || []
-    let opciones_talla = ""
-
-    for(const talla of tallas_disponibles){
-        opciones_talla += `<option value="${talla}">${talla}</option>`
-    }
-    //opcion para elegir color
-    const color_disponible = producto.color || []
-    let opcion_color = ""
-
-    for(const color of color_disponible){
-        opcion_color += `<option value="${color}">${color}</option>`
-    }
     if (producto.talla != null){
         modal_contenido.innerHTML=`
         <img src="${producto.imagen}" alt="${producto.categoria.titulo}">
@@ -258,18 +238,6 @@ function mostrar_detalles_producto(idprducto){
     actualizar_botones_Agregar()
     actualizar_eventos_imagenes()
         
-    }
-    else{
-        modal_contenido.innerHTML=`
-        <img src="${producto.imagen}" alt="${producto.categoria.titulo}">
-        <p class="description_producto">${producto.detalles}</p>
-        <p class="p_de_costo">$<b>${producto.precio}</b></p>
-        <button class="btnn_productos_agg" id="${producto.id}">Agg al carrito</button>
-        
-        
-        `;
-    actualizar_botones_Agregar()
-    actualizar_eventos_imagenes()
         
     }
     const activ = document.querySelector("#modal_detalle")
