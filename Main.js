@@ -125,26 +125,26 @@ const productos =[
         "precio": 000
     },
     {
-        "id": "vestido",
-        "nombre": "Blusa de mujer",
-        "imagen": "imagenes/Blusa1.jpg",
+        "id": "Maltabucanero",
+        "nombre": "Malta Bucanero",
+        "imagen": "imagenes/Maltab.jpg",
         "categoria":{
-            "titulo":"sport-mujer",
-            "categoria":"mujer"
+            "titulo":"",
+            "categoria":"Bebidas"
         },
-        "detalles":"Blusa de mujer de tela suabe",
-        "precio": 500
+        "detalles":"malta en lata",
+        "precio": 000
     },
     {
-        "id": "vestido",
-        "nombre": "Blusa con estilo",
-        "imagen": "imagenes/Blusa2.jpg",
+        "id": "cervesa cristal",
+        "nombre": "Cerveza Cristal",
+        "imagen": "imagenes/Cervesacristal.jpg",
         "categoria":{
-            "titulo":"formal-mujer",
-            "categoria":"mujer"
+            "titulo":"",
+            "categoria":"Bebidas"
         },
-        "detalles":"Blusa de mujer de color negro",
-        "precio": 1000
+        "detalles":"Cerveza cristal en lata",
+        "precio": 000
     },
     {
         "id": "vestido",
