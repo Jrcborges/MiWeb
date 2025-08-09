@@ -35,7 +35,7 @@ const productos =[
     },
     {
         "id": "panquecencillo",
-        "nombre": "Chaquta de hombre",
+        "nombre": "Panque cencillo",
         "imagen": "imagenes/Panquecencillo.jpg",
         "categoria":{
             "titulo":"Panques",
