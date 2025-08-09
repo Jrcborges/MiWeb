@@ -101,16 +101,28 @@ const productos =[
         "detalles":"Mantecaditos",
         "precio": 50
     },
+
+
+
+
+/*Esta parte es bebidas*/
+
+
+
+
+
+
+    
     {
-        "id": "vestido",
-        "nombre": "Vestido",
-        "imagen": "imagenes/Vestido2.jpg",
+        "id": "Belga",
+        "nombre": "CervezaBelga",
+        "imagen": "imagenes/Belga.jpg",
         "categoria":{
-            "titulo":"formal-mujer",
-            "categoria":"mujer"
+            "titulo":"",
+            "categoria":"Bebidas"
         },
-        "detalles":"ropa de mujer",
-        "precio": 1000
+        "detalles":"Cerveza belga",
+        "precio": 000
     },
     {
         "id": "vestido",
