@@ -20,70 +20,64 @@ const productos =[
             "categoria":"Dulces"
         },
         "detalles":"ropa de sports",
-        "precio": 600
+        "precio": 550
     },
     {
-        "id": "momo-4",
-        "nombre": "Chaquta de hombre",
-        "imagen": "imagenes/Chaqueta1.jpg",
+        "id": "panqueafricano",
+        "nombre": "Panque Africano",
+        "imagen": "imagenes/Panque africano.jpg",
         "categoria":{
-            "titulo":"formal-hombre",
-            "categoria":"hombre"
+            "titulo":"Panques",
+            "categoria":"Dulces"
         },
-        "detalles":"Ropa para salidas especiales y cenas",
-        "talla":["XL","M"],
-        "precio": 900
+        "detalles":"Panque africano",
+        "precio": 180
     },
     {
-        "id": "momo-4",
+        "id": "panquecencillo",
         "nombre": "Chaquta de hombre",
-        "imagen": "imagenes/Chaqueta2.jpg",
+        "imagen": "imagenes/Panquecencillo.jpg",
         "categoria":{
-            "titulo":"formal-hombre",
-            "categoria":"hombre"
+            "titulo":"Panques",
+            "categoria":"Dulces"
         },
-        "detalles":"Ropa formal de hombre para eventos especiales,como bodas",
-        "talla":["X","M"],
-        "precio": 600
+        "detalles":"Panque cencillo ",
+        "precio": 120
     },
     {
-        "id": "momo-4",
-        "nombre": "Chaquta de hombre",
-        "imagen": "imagenes/Calsonesm1.jpg",
+        "id": "paeguallaba",
+        "nombre": "Pae",
+        "imagen": "imagenes/Paeguayaba.jpg",
         "categoria":{
-            "titulo":"ropa-interior-hombre",
-            "categoria":"hombre"
+            "titulo":"Pasteles",
+            "categoria":"Dulces"
         },
-        "detalles":"Ropa interior de hombre varios colores",
-        "talla":["X","M"],
-        "color":["rojo","azul"],
-        "precio": 200,
+        "detalles":"Con mermelada de guayaba",
+        "precio": 650,
     },
     {
-        "id": "momo-4",
-        "nombre": "Chaquta de hombre",
-        "imagen": "imagenes/Calsonesm2.jpg",
+        "id": "ensaladafria",
+        "nombre": "Ensalada Fria",
+        "imagen": "imagenes/Ensaladafria.jpg",
         "categoria":{
-            "titulo":"ropa-interior-hombre",
-            "categoria":"hombre"
+            "titulo":"todo",
+            "categoria":"Dulces"
         },
         "detalles":"Ropa interior de hombre varios colores",
-        "talla":["X","M"],
-        "color":["rojo","azul"],
-        "precio": 100,
+        "precio": 250,
     },
 
     {
-        "id": "momo-4",
-        "nombre": "Camisa de hombre",
-        "imagen": "imagenes/Chaqueta3.jpg",
+        "id": "tartaleta",
+        "nombre": "Tartaleta",
+        "imagen": "imagenes/Tartaleta.jpg",
         "categoria":{
-            "titulo":"formal-hombre",
-            "categoria":"hombre"
+            "titulo":"Merengue",
+            "categoria":"Dulces"
         },
-        "detalles":"Ropa formal de hombre para eventos especiales",
-        "talla":["X","M"],
-        "precio": 800
+        "detalles":"tartaletas",
+        
+        "precio": 100
     },
     {
         "id": "momo-4",
