@@ -12,7 +12,7 @@ body {
   ::-webkit-scrollbar{display: none;}
 }
 a {
-  background-color: transparent;
+  background-color: #fff;
   border: 0;
   margin-right: 20px;
   padding-right: 10px;
