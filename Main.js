@@ -147,36 +147,36 @@ const productos =[
         "precio": 000
     },
     {
-        "id": "vestido",
-        "nombre": "Sudadera",
-        "imagen": "imagenes/Blusa3.jpg",
+        "id": "Cervesaparranda",
+        "nombre": "Cerveza Parranda",
+        "imagen": "imagenes/Cervesaparranda.png",
         "categoria":{
-            "titulo":"formal-mujer",
-            "categoria":"mujer"
+            "titulo":"",
+            "categoria":"Bebidas"
         },
-        "detalles":"Sudadera de mujer para tiempo de frio",
-        "precio": 800
+        "detalles":"Cervesa parranda",
+        "precio": 000
     },
     {
-        "id": "vestido",
-        "nombre": "Pantalon para salidas",
-        "imagen": "imagenes/Panta1.jpg",
+        "id": "chacal",
+        "nombre": "Cerveza Chacal",
+        "imagen": "imagenes/Chacal.jpg",
         "categoria":{
-            "titulo":"formal-mujer",
-            "categoria":"mujer"
+            "titulo":"",
+            "categoria":"Bebidas"
         },
-        "detalles":"Pantalon casual para salidas",
-        "precio": 500
+        "detalles":"chacal bebida en lata ",
+        "precio": 000
     },
     {
-        "id": "vestido",
-        "nombre": "Refrigerador 2 puertas",
-        "imagen": "imagenes/Refri.jpg",
+        "id": "maltaguajira",
+        "nombre": "Malta Guajira",
+        "imagen": "imagenes/Maltag.jpg",
         "categoria":{
-            "categoria":"electrodomestico"
+            "categoria":"Bebidas"
         },
-        "detalles":"Refrigerador dos puertas",
-        "precio": 10000
+        "detalles":"Clasica malta guajira",
+        "precio": 000
     },
     {
         "id": "vesti",
