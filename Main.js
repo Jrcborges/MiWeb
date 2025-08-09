@@ -104,7 +104,7 @@ const productos =[
     {
         "id": "Tartaletas",
         "nombre":"Tartaleta",
-        "imagen": "imagenes/Tartaleta.jpg",
+        "imagen": "imagenes/Tartalet.jpg",
         "categoria":{
             "titulo":"merengue",
             "categoria":"Dulces"
