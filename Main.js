@@ -68,23 +68,23 @@ const productos =[
     },
 
     {
-        "id": "tartaleta",
-        "nombre": "Tartaleta",
-        "imagen": "imagenes/Tartaleta.jpg",
+        "id": "cuña",
+        "nombre": "Cuña de dulce",
+        "imagen": "imagenes/Cuña.jpg",
         "categoria":{
-            "titulo":"Merengue",
+            "titulo":"merengue",
             "categoria":"Dulces"
         },
-        "detalles":"tartaletas",
+        "detalles":"cuña de dulce",
         
-        "precio": 100
+        "precio": 150
     },
     {
         "id": "tartainof",
         "nombre": "Tartainof",
         "imagen": "imagenes/Tartainof.jpg",
         "categoria":{
-            "titulo":"Merengue",
+            "titulo":"merengue",
             "categoria":"Dulces"
         },
         "detalles":"Dulce tartainof",
@@ -100,6 +100,17 @@ const productos =[
         },
         "detalles":"Mantecaditos",
         "precio": 50
+    },
+    {
+        "id": "Tartaletas",
+        "nombre":"Tartaleta",
+        "imagen": "imagenes/Tartaleta.jpg",
+        "categoria":{
+            "titulo":"merengue",
+            "categoria":"Dulces"
+        },
+        "detalles":"tartaletas",
+        "precio": 100
     },
 
 
