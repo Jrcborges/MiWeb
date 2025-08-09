@@ -60,7 +60,7 @@ const productos =[
         "nombre": "Ensalada Fria",
         "imagen": "imagenes/Ensaladafria.jpg",
         "categoria":{
-            "titulo":"todo",
+            "titulo":"todos",
             "categoria":"Dulces"
         },
         "detalles":"Ensalda fria",
