@@ -12,7 +12,8 @@ body {
   ::-webkit-scrollbar{display: none;}
 }
 a {
-  background-color: #fff;
+  color:#fff;
+  background-color: transparent;
   border: 0;
   margin-right: 20px;
   padding-right: 10px;
