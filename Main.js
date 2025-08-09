@@ -19,7 +19,7 @@ const productos =[
             "titulo":"todos",
             "categoria":"Dulces"
         },
-        "detalles":"ropa de sports",
+        "detalles":"Coco glase helado riquisimo",
         "precio": 550
     },
     {
@@ -63,7 +63,7 @@ const productos =[
             "titulo":"todo",
             "categoria":"Dulces"
         },
-        "detalles":"Ropa interior de hombre varios colores",
+        "detalles":"Ensalda fria",
         "precio": 250,
     },
 
@@ -80,27 +80,26 @@ const productos =[
         "precio": 100
     },
     {
-        "id": "momo-4",
-        "nombre": "Chaqueta de hombre",
-        "imagen": "imagenes/Chaqueta4.jpg",
+        "id": "tartainof",
+        "nombre": "Tartainof",
+        "imagen": "imagenes/Tartainof.jpg",
         "categoria":{
-            "titulo":"formal-hombre",
-            "categoria":"hombre"
+            "titulo":"Merengue",
+            "categoria":"Dulces"
         },
-        "detalles":"Ropa formal de hombre para salidas",
-        "talla":["X","M"],
-        "precio": 700
+        "detalles":"Dulce tartainof",
+        "precio":200
     },
     {
-        "id": "vestido-3",
-        "nombre": "vestido",
-        "imagen": "imagenes/Vestido1.jpg",
+        "id": "polvorones",
+        "nombre": "Mantecado",
+        "imagen": "imagenes/Polvorones.jpg",
         "categoria":{
-            "titulo":"formal_mujer",
-            "categoria":"mujer"
+            "titulo":"Pasteles",
+            "categoria":"Dulces"
         },
-        "detalles":"vestido bonito de mujer",
-        "precio": 3000
+        "detalles":"Mantecaditos",
+        "precio": 50
     },
     {
         "id": "vestido",
