@@ -88,7 +88,7 @@ const productos =[
             "categoria":"Dulces"
         },
         "detalles":"Dulce Marquesita",
-        "precio":180
+        "precio":170
     },
     {
         "id": "polvorones",
