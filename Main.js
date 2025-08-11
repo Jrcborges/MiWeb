@@ -189,15 +189,25 @@ const productos =[
         "detalles":"Clasica malta guajira",
         "precio": 250
     },
+
+
+
+
+//Esta parte es de los kakes 
+
+
+
+
+    
     {
-        "id": "vesti",
-        "nombre": "Microndas",
-        "imagen": "imagenes/Micro.jpg",
+        "id":"Kake",
+        "nombre": "Kake",
+        "imagen": "imagenes/Kake4000.jpg",
         "categoria":{
-            "categoria":"electrodomestico"
+            "categoria":"Kakes"
         },
-        "detalles":"Microndas perfecto para casa",
-        "precio": 10000
+        "detalles":"Kake exelente para eventos.Ruiquisimo!! ",
+        "precio": 4000
     },
 
 ]
