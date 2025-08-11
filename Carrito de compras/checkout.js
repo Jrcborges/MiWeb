@@ -4,7 +4,7 @@ productoscarrito= JSON.parse(productoscarrito);
 const boton_checkout = document.getElementById("checkout_btn");
 boton_checkout.addEventListener("click",funciono);
 function funciono(){
-    const numero_deMovilAllegar="5356346418"
+    const numero_deMovilAllegar="5363460710"
     const nombre = document.getElementById('nombre').value;
     const numero = document.getElementById('numero').value;
     const direccion = document.getElementById('direcion').value;
