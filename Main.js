@@ -88,7 +88,7 @@ const productos =[
             "categoria":"Dulces"
         },
         "detalles":"Dulce Marquesita",
-        "precio":200
+        "precio":180
     },
     {
         "id": "polvorones",
@@ -210,7 +210,7 @@ const productos =[
         "precio": 4000
     },
     {
-        "id":"Cake",
+        "id":"Cake2",
         "nombre": "Cake",
         "imagen": "imagenes/Cake2000.jpg",
         "categoria":{
