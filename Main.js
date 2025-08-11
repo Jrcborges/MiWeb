@@ -200,11 +200,11 @@ const productos =[
 
     
     {
-        "id":"Kake",
-        "nombre": "Kake",
-        "imagen": "imagenes/Kake4000.jpg",
+        "id":"Cake",
+        "nombre": "Cake",
+        "imagen": "imagenes/Kakem.jpg",
         "categoria":{
-            "categoria":"Kakes"
+            "categoria":"Cake"
         },
         "detalles":"Kake exelente para eventos.Ruiquisimo!! ",
         "precio": 4000
