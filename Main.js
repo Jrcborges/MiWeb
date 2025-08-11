@@ -80,14 +80,14 @@ const productos =[
         "precio": 150
     },
     {
-        "id": "tartainof",
-        "nombre": "Tartainof",
+        "id": "marquesita",
+        "nombre": "Marquesita",
         "imagen": "imagenes/Tartainof.jpg",
         "categoria":{
             "titulo":"merengue",
             "categoria":"Dulces"
         },
-        "detalles":"Dulce tartainof",
+        "detalles":"Dulce Marquesita",
         "precio":200
     },
     {
