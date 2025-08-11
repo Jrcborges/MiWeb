@@ -56,6 +56,17 @@ const productos =[
         "precio": 650,
     },
     {
+        "id": "tatianof",
+        "nombre": "Tatianof",
+        "imagen": "imagenes/Tatianof.jpg",
+        "categoria":{
+            "titulo":"Merengue",
+            "categoria":"Dulces"
+        },
+        "detalles":"Tatianof no se pierda de su sabor!!",
+        "precio": 200
+    },
+    {
         "id": "ensaladafria",
         "nombre": "Ensalada Fria",
         "imagen": "imagenes/Ensaladafria.jpg",
@@ -219,6 +230,34 @@ const productos =[
         "detalles":"Kake exelente para eventos.Ruiquisimo!! ",
         "precio": 2000
     },
+
+
+
+
+
+
+
+    
+//esta parte es de los panes 
+
+
+
+    {
+        "id":"panpq",
+        "nombre": "Paquete de Pan Bon",
+        "imagen": "imagenes/Pk de pan.jpg",
+        "categoria":{
+            "categoria":"Pan"
+        },
+        "detalles":"Paquete de pan trae 10",
+        "precio": 270      
+    },
+
+
+
+
+
+    
 
 ]
 // Selecciona el contenedor del HTML
