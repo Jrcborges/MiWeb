@@ -209,6 +209,16 @@ const productos =[
         "detalles":"Kake exelente para eventos.Ruiquisimo!! ",
         "precio": 4000
     },
+    {
+        "id":"Cake",
+        "nombre": "Cake",
+        "imagen": "imagenes/Cake2000.jpg",
+        "categoria":{
+            "categoria":"Cake"
+        },
+        "detalles":"Kake exelente para eventos.Ruiquisimo!! ",
+        "precio": 2000
+    },
 
 ]
 // Selecciona el contenedor del HTML
