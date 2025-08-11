@@ -133,7 +133,7 @@ const productos =[
             "categoria":"Bebidas"
         },
         "detalles":"Cerveza belga",
-        "precio": 000
+        "precio": 250
     },
     {
         "id": "Maltabucanero",
@@ -144,7 +144,7 @@ const productos =[
             "categoria":"Bebidas"
         },
         "detalles":"malta en lata",
-        "precio": 000
+        "precio": 320
     },
     {
         "id": "cervesa cristal",
@@ -155,7 +155,7 @@ const productos =[
             "categoria":"Bebidas"
         },
         "detalles":"Cerveza cristal en lata",
-        "precio": 000
+        "precio": 300
     },
     {
         "id": "Cervesaparranda",
@@ -166,7 +166,7 @@ const productos =[
             "categoria":"Bebidas"
         },
         "detalles":"Cervesa parranda",
-        "precio": 000
+        "precio": 220
     },
     {
         "id": "chacal",
@@ -177,7 +177,7 @@ const productos =[
             "categoria":"Bebidas"
         },
         "detalles":"chacal bebida en lata ",
-        "precio": 000
+        "precio": 250
     },
     {
         "id": "maltaguajira",
@@ -187,7 +187,7 @@ const productos =[
             "categoria":"Bebidas"
         },
         "detalles":"Clasica malta guajira",
-        "precio": 000
+        "precio": 250
     },
     {
         "id": "vesti",
