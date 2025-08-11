@@ -35,7 +35,7 @@ const productos =[
     },
     {
         "id": "panquecencillo",
-        "nombre": "Panque cencillo",
+        "nombre": "Panque sencillo",
         "imagen": "imagenes/Panquecencillo.jpg",
         "categoria":{
             "titulo":"Panques",
