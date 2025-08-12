@@ -147,6 +147,17 @@ const productos =[
         "precio": 250
     },
     {
+        "id": "refrescobom",
+        "nombre": "Refresco de piña",
+        "imagen": "imagenes/Refresco boom.jpg",
+        "categoria":{
+            "titulo":"",
+            "categoria":"Bebidas"
+        },
+        "detalles":"Refresco booms de lata sabor piña",
+        "precio": 230
+    },
+    {
         "id": "Maltabucanero",
         "nombre": "Malta Bucanero",
         "imagen": "imagenes/Maltab.jpg",
