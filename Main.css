@@ -55,7 +55,7 @@ header{
 }
 .close-open{
   text-align: justify;
-  color:rgb(27, 149, 27)
+  color:rgb(27, 149, 27);
   padding: 10px;
   margin-bottom: 10px;
   display: flex;
