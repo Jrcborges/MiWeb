@@ -11,7 +11,7 @@ const productos =[
         
         "precio": 150,
     },
-    {
+  /*  {
         "id": "cocoglase",
         "nombre": "Coco Glasé",
         "imagen": "imagenes/Cocoglase.jpg",
@@ -21,7 +21,7 @@ const productos =[
         },
         "detalles":"Coco glase helado riquisimo",
         "precio": 550
-    },
+    },*/
     {
         "id": "panqueafricano",
         "nombre": "Panque Africano",
@@ -44,7 +44,7 @@ const productos =[
         "detalles":"Panque cencillo ",
         "precio": 120
     },
-    {
+   /* {
         "id": "paeguallaba",
         "nombre": "Pae",
         "imagen": "imagenes/Paeguayaba.jpg",
@@ -54,7 +54,7 @@ const productos =[
         },
         "detalles":"Con mermelada de guayaba",
         "precio": 650,
-    },
+    },*/
     {
         "id": "tatianof",
         "nombre": "Tatianof",
@@ -66,7 +66,7 @@ const productos =[
         "detalles":"Tatianof no se pierda de su sabor!!",
         "precio": 200
     },
-    {
+    /*{
         "id": "ensaladafria",
         "nombre": "Ensalada Fria",
         "imagen": "imagenes/Ensaladafria.jpg",
@@ -76,7 +76,7 @@ const productos =[
         },
         "detalles":"Ensalda fria",
         "precio": 250,
-    },
+    },*/
 
     {
         "id": "cuña",
@@ -253,7 +253,7 @@ const productos =[
 
 
 
-    {
+    /*{
         "id":"panpq",
         "nombre": "Paquete de Pan Bon",
         "imagen": "imagenes/Pk de pan.jpg",
@@ -262,7 +262,7 @@ const productos =[
         },
         "detalles":"Paquete de pan trae 10",
         "precio": 270      
-    },
+    },*/
 
 
 
