@@ -253,7 +253,7 @@ const productos =[
 
 
 
-    /*{
+    {
         "id":"panpq",
         "nombre": "Paquete de Pan Bon",
         "imagen": "imagenes/Pk de pan.jpg",
@@ -262,7 +262,7 @@ const productos =[
         },
         "detalles":"Paquete de pan trae 10",
         "precio": 270      
-    },*/
+    },
 
 
 
