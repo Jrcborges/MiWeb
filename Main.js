@@ -11,7 +11,7 @@ const productos =[
         
         "precio": 150,
     },
-  /*  {
+  {
         "id": "cocoglase",
         "nombre": "Coco Glasé",
         "imagen": "imagenes/Cocoglase.jpg",
@@ -21,7 +21,7 @@ const productos =[
         },
         "detalles":"Coco glase helado riquisimo",
         "precio": 550
-    },*/
+    },
     {
         "id": "panqueafricano",
         "nombre": "Panque Africano",
