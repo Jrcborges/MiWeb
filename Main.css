@@ -71,7 +71,7 @@ header{
   min-width: 40px
 }
 .items_menu{
-  background-color: #f9f9f9;
+  background-color: #f00;
   padding: 10px;
   overflow-x: auto;
   white-space: nowrap;
