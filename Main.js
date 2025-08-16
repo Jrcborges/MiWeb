@@ -209,7 +209,7 @@ const productos =[
             "categoria":"Bebidas"
         },
         "detalles":"Clasica malta guajira",
-        "precio": 250
+        "precio": 270
     },
 
 
